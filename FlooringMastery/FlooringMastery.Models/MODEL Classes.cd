@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FlooringMastery.Models.StateTax">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACACAAAAAAAAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>StateTax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.Models.Order">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAQAAAIAAAAEgAAEACAAAIAAQAAAACEAAAAAAQAFCAA=</HashCode>
+      <FileName>Order.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.Models.Product">
+    <Position X="2.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.Models.Responses.OrderResponse">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Responses\OrderResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.Models.Responses.OrdersResponse">
+    <Position X="2.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Responses\OrdersResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.Models.Responses.ProductResponse">
+    <Position X="4.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Responses\ProductResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.Models.Responses.ProductsResponse">
+    <Position X="4.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Responses\ProductsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.Models.Responses.Response">
+    <Position X="7" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Responses\Response.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.Models.Responses.TaxesResponse">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Responses\TaxesResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.Models.Responses.TaxResponse">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>Responses\TaxResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="FlooringMastery.Models.Interfaces.IOrderRepository">
+    <Position X="0.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAgAAAEAAAAAAAAAAAACAAAAAAAgEAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IOrderRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FlooringMastery.Models.Interfaces.IProductRepository">
+    <Position X="2.5" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IProductRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="FlooringMastery.Models.Interfaces.ITaxRepository">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ITaxRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

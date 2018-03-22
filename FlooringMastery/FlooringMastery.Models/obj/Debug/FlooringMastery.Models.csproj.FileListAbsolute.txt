@@ -1,0 +1,7 @@
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Models\bin\Debug\FlooringMastery.Models.dll.config
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Models\bin\Debug\FlooringMastery.Models.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Models\bin\Debug\FlooringMastery.Models.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.csprojResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.pdb

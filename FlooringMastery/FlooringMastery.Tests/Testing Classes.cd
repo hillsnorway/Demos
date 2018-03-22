@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FlooringMastery.Tests.TaxFileRepoTests">
+    <Position X="6.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAoQAAAQAAAIADAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TaxFileRepoTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.Tests.ProductFileRepoTests">
+    <Position X="6.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAoQAgAAAAAAAAAAACAAAAAAAAgAAIAAA=</HashCode>
+      <FileName>ProductFileRepoTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.Tests.OrderManagerBLLTests">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>OrderManagerBLLTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlooringMastery.Tests.OrderFileRepoTests">
+    <Position X="2.75" Y="0.5" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAABQAoRAGAAAAAIACAAASBCAQAAAAAAAAAAA=</HashCode>
+      <FileName>OrderFileRepoTests.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

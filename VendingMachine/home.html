@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Vending Machine</title>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-theme.css" rel="stylesheet">
+        <link href="css/site.css" rel="stylesheet">
+        <!-- Have to have jquery here, because it is used in some scripts added dynamically to the body -->
+        <script src="js/jquery-2.2.4.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center" id="mainHeading">Vending Machine</h1>
+            <hr/>
+            <div class="row">
+                <div class="col-md-9" id="VM_Items_Div">
+                    <div class="row" id="VM_Items">
+
+                            <!--Example data - home.js removes this before loading items from the Rest Endpoint-->
+                            <div class="btn btn-default btn-sq-scalable" id="VM_ItemX" style="border:double" onclick=setItemX()>
+                                <div class="btn-sq-content">
+                                    <p class="text-left">X</p>
+                                    <p class="text-center">Snickers</p>
+                                    <p class="text-center">$1.85</p>
+                                    <br/>
+                                    <p class="text-center">Quantity Left: 9</p>
+                                    <script>
+                                        function setItemX(){
+                                            $("#txtItemSelected").val("X");
+                                        }
+                                    </script>
+                                </div>
+                            </div>
+                            <div class="btn btn-default btn-sq-scalable" id="VM_ItemY" style="border:double" onclick=setItemY()>
+                                <div class="btn-sq-content">
+                                    <p class="text-left">Y</p>
+                                    <p class="text-center">M + Ms</p>
+                                    <p class="text-center">$1.50</p>
+                                    <br/>
+                                    <p class="text-center">Quantity Left: 2</p>
+                                    <script>
+                                        function setItemY(){
+                                            $("#txtItemSelected").val("Y");
+                                        }
+                                    </script>
+                                </div>
+                            </div>                        
+                            <div class="btn btn-default btn-sq-scalable" id="VM_ItemZ" style="border:double" onclick=setItemZ()>
+                                <div class="btn-sq-content">
+                                    <p class="text-left">Z</p>
+                                    <p class="text-center">Pringles</p>
+                                    <p class="text-center">$2.10</p>
+                                    <br/>
+                                    <p class="text-center">Quantity Left: 5</p>
+                                    <script>
+                                        function setItemZ(){
+                                            $("#txtItemSelected").val("Z");
+                                        }
+                                    </script>
+                                </div>
+                            </div>
+                       
+                    </div>
+                </div>
+                <div class="col-md-3" id="VM_Actions_Div">
+                        <div class="row" id="VM_Actions">
+                            <div class="col-md-12 text-center" id="CoinSlot">
+                                <div class="form-group">
+                                    <label for="txtTotalAmount">Total $ in</label>
+                                    <input type="text" class="form-control" id="txtTotalAmount" readonly></input>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <button class="btn btn-default btn-block" type="button" id="btnAddDollar">Add Dollar</button>    
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <button class="btn btn-default btn-block" type="button" id="btnAddQuarter">Add Quarter</button>   
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <button class="btn btn-default btn-block" type="button" id="btnAddDime">Add Dime</button>  
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <button class="btn btn-default btn-block" type="button" id="btnAddNickel">Add Nickel</button>
+                                    </div>
+                                </div>
+                                <hr/>
+                            </div>
+                            <div class="col-md-12 text-center" id="ItemInfo">
+                                <div class="form-group">
+                                    <label for="txtItemMessage">Messages</label>
+                                    <input type="text" class="form-control" id="txtItemMessage" readonly></input>
+                                </div>
+                                <div class="form-group row">
+                                    <label for="txtItemSelected" class="col-sm-2 col-form-label">Item</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="txtItemSelected" readonly></input>
+                                    </div>
+                                </div>                               
+                                <button class="btn btn-default btn-block" type="button" id="btnItemPurchase">Make Purchase</button>
+                                <hr/>
+                            </div>
+                            <div class="col-md-12 text-center" id="CoinReturn">
+                                <div class="form-group">
+                                    <label for="txtCoinAmounts">Change</label>
+                                    <input type="text" class="form-control" id="txtCoinAmounts" readonly></input>
+                                </div>
+                                <button class="btn btn-default btn-block" type="button" id="btnCoinReturn">Change Return</button>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+        <script src="js/home.js"></script>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\SGBank.Data\bin\Debug\SGBank.Data.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\SGBank.Data\bin\Debug\SGBank.Data.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\SGBank.Data\bin\Debug\SGBank.Models.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\SGBank.Data\bin\Debug\SGBank.Models.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\SGBank.Data\obj\Debug\SGBank.Data.csprojResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\SGBank.Data\obj\Debug\SGBank.Data.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\SGBank.Data\obj\Debug\SGBank.Data.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\SGBank.Data\obj\Debug\SGBank.Data.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.Data\bin\Debug\SGBank.Data.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.Data\bin\Debug\SGBank.Data.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.Data\bin\Debug\SGBank.Models.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.Data\bin\Debug\SGBank.Models.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.Data\obj\Debug\SGBank.Data.csprojResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.Data\obj\Debug\SGBank.Data.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.Data\obj\Debug\SGBank.Data.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.Data\obj\Debug\SGBank.Data.pdb

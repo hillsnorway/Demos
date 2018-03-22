@@ -1,0 +1,27 @@
+﻿@model SIS.Models.Data.Major
+
+@{
+    ViewBag.Title = "Edit Major";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Edit Major</h3>
+        @Html.ActionLink("Return to List", "Majors", "Admin")
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        @using (Html.BeginForm("EditMajor", "Admin", FormMethod.Post))
+        {
+            <div style="color:red;font-weight:bold">@Html.ValidationSummary()</div>
+            @Html.HiddenFor(m => m.MajorId)
+            <div class="form-group">
+                <label>Major</label>
+                @Html.TextBoxFor(m => m.MajorName, new { @class = "form-control", placeholder = "Major" })
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary">Save</button>
+            @Html.ActionLink("Cancel", "Majors", "Admin", null, new { @class = "btn btn-sm btn-info" })
+        }
+    </div>
+</div>      

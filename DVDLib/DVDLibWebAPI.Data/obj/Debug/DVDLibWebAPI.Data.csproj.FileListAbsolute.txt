@@ -1,0 +1,16 @@
+C:\Users\Nathan\source\sandbox repo\DVDLib\DVDLibWebAPI.Data\bin\Debug\DVDLibWebAPI.Data.dll
+C:\Users\Nathan\source\sandbox repo\DVDLib\DVDLibWebAPI.Data\bin\Debug\DVDLibWebAPI.Data.pdb
+C:\Users\Nathan\source\sandbox repo\DVDLib\DVDLibWebAPI.Data\obj\Debug\DVDLibWebAPI.Data.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\source\sandbox repo\DVDLib\DVDLibWebAPI.Data\obj\Debug\DVDLibWebAPI.Data.dll
+C:\Users\Nathan\source\sandbox repo\DVDLib\DVDLibWebAPI.Data\obj\Debug\DVDLibWebAPI.Data.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\DVDLib\DVDLibWebAPI.Data\bin\Debug\DVDLibWebAPI.Data.dll.config
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\DVDLib\DVDLibWebAPI.Data\bin\Debug\DVDLibWebAPI.Data.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\DVDLib\DVDLibWebAPI.Data\bin\Debug\DVDLibWebAPI.Data.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\DVDLib\DVDLibWebAPI.Data\bin\Debug\EntityFramework.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\DVDLib\DVDLibWebAPI.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\DVDLib\DVDLibWebAPI.Data\bin\Debug\EntityFramework.xml
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\DVDLib\DVDLibWebAPI.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\DVDLib\DVDLibWebAPI.Data\obj\Debug\DVDLibWebAPI.Data.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\DVDLib\DVDLibWebAPI.Data\obj\Debug\DVDLibWebAPI.Data.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\DVDLib\DVDLibWebAPI.Data\obj\Debug\DVDLibWebAPI.Data.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\DVDLib\DVDLibWebAPI.Data\obj\Debug\DVDLibWebAPI.Data.csprojResolveAssemblyReference.cache

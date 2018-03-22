@@ -1,0 +1,15 @@
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\bin\Debug\SGBank.UI.exe.config
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\bin\Debug\SGBank.UI.exe
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\bin\Debug\SGBank.UI.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\bin\Debug\Ninject.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\bin\Debug\SGBank.BLL.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\bin\Debug\SGBank.Models.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\bin\Debug\SGBank.Data.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\bin\Debug\SGBank.Models.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\bin\Debug\SGBank.BLL.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\bin\Debug\Ninject.xml
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\bin\Debug\SGBank.Data.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\obj\Debug\SGBank.UI.csprojResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\obj\Debug\SGBank.UI.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\obj\Debug\SGBank.UI.exe
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\SGBank\SGBank.UI\obj\Debug\SGBank.UI.pdb

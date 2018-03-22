@@ -1,0 +1,27 @@
+﻿@model SIS.Models.Data.Course
+
+@{
+    ViewBag.Title = "Add Course";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Add Course</h3>
+        @Html.ActionLink("Return to List", "Courses", "Admin")
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        @using (Html.BeginForm())
+        {
+            <div style="color:red;font-weight:bold">@Html.ValidationSummary()</div>
+            <div class="form-group">
+                <label>Course Name</label>
+                @Html.TextBoxFor(m => m.CourseName, new { @class = "form-control", placeholder = "Course Name" })
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary">Save</button>
+            @Html.ActionLink("Cancel", "Courses", "Admin", null, new { @class = "btn btn-sm btn-info" })
+        }
+    </div>
+</div>
+

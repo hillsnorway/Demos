@@ -1,0 +1,24 @@
+﻿@model SIS.Models.Data.Student
+
+@{
+    ViewBag.Title = "Delete Address";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Delete Address</h3>
+        @Html.ActionLink("Return to student editing view", "Edit", "Student", new { id = Model.StudentId }, null)
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        @using (Html.BeginForm("DeleteAddress", "Student", FormMethod.Post))
+    {
+        @Html.HiddenFor(m => m.StudentId)
+        <p>Are you sure you want to delete the address for student: @Model.LastName, @Model.FirstName?</p>
+        <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+        @Html.ActionLink("Cancel", "Edit", "Student", new { id = Model.StudentId }, new { @class = "btn btn-sm btn-info" })
+}
+    </div>
+</div>
+

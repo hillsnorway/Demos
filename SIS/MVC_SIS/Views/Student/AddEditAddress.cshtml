@@ -1,0 +1,65 @@
+﻿@model SIS.Models.ViewModels.AddressVM
+
+@{
+    if (Model.Address.State!=null)
+    {
+        ViewBag.Title = "Edit Address";
+    }
+    else
+    {
+        ViewBag.Title = "Add Address";
+    }
+}
+
+<div class="row">
+    <div  class="col-xs-12 col-sm-3">
+        @Html.Partial("StudentNav")
+    </div>
+    <div class="col-xs-12 col-sm-9">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3>@ViewBag.Title</h3>
+                @Html.ActionLink("Return to student editing view", "Edit", "Student", new { id = Model.StudentId }, null)
+                <div class="row">
+                    @using (Html.BeginForm("AddEditAddress","Student"))
+                    {
+                        <div style="color:red;font-weight:bold">@Html.ValidationSummary()</div>
+                        <div class="col-xs-12 col-sm-7">
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">Enter an address</h4>
+                                </div>
+                                <div class="panel-body">
+                                    @Html.HiddenFor(m => m.StudentId)
+                                    <div class="form-group">
+                                        <label>Street1:</label>
+                                        @Html.TextBoxFor(m => m.Address.Street1, new { @class = "form-control" })
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Street2:</label>
+                                        @Html.TextBoxFor(m => m.Address.Street2, new { @class = "form-control" })
+                                    </div>
+                                    <div class="form-group">
+                                        <label>City:</label>
+                                        @Html.TextBoxFor(m => m.Address.City, new { @class = "form-control" })
+                                    </div>
+                                    <div class="form-group">
+                                        <label>State:</label>
+                                        @Html.DropDownListFor(m => m.Address.State.StateAbbreviation, Model.StateItems, "-Choose One-", new { @class = "form-control" })
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Postal Code:</label>
+                                        @Html.TextBoxFor(m => m.Address.PostalCode, new { @class = "form-control" })
+                                    </div>
+                                    <button class="btn btn-primary">Save</button>
+                                    @Html.ActionLink("Cancel", "Edit", "Student", new { id = Model.StudentId }, new { @class = "btn btn-sm btn-info" })
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,23 @@
+﻿@model SIS.Models.Data.Major
+
+@{
+    ViewBag.Title = "Delete Major";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Delete Major</h3>
+        @Html.ActionLink("Return to List", "Majors", "Admin")
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        @using (Html.BeginForm("DeleteMajor", "Admin", FormMethod.Post))
+        {
+            @Html.HiddenFor(m => m.MajorId)
+            <p>Are you sure that you wish to delete the major @Html.DisplayFor(m => m.MajorName)?</p>
+            <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+            @Html.ActionLink("Cancel", "Majors", "Admin", null, new { @class = "btn btn-sm btn-info" })
+        }
+    </div>
+</div>     

@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BattleShip.UI.Program">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShip.UI.Player">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAIAAAAAAAQAAQAAAAAAAAgIAAAQAIAAAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShip.UI.GameFlow">
+    <Position X="3.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gABAAACAAgIAAAAAAIAAAQAQAACAAAAAAARohAAAEAA=</HashCode>
+      <FileName>GameFlow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShip.UI.DisplayGrid">
+    <Position X="5.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAACAAQAAAAAEAAAAAAAABABAAAAAA=</HashCode>
+      <FileName>DisplayGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShip.BLL.Ships.Ship">
+    <Position X="9.25" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BattleShip.BLL.Requests.PlaceShipRequest">
+    <Position X="10.75" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BattleShip.BLL.Requests.Coordinate">
+    <Position X="7.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BattleShip.BLL.GameLogic.ShipCreator">
+    <Position X="10.75" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BattleShip.BLL.GameLogic.Board">
+    <Position X="7.75" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="BattleShip.BLL.Responses.FireShotResponse">
+    <Position X="9" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Enum Name="BattleShip.UI.Enums.ReturnType">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAgAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Enums\ReturnType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BattleShip.UI.Enums.PlayerStatus">
+    <Position X="2" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAACAAAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\PlayerStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BattleShip.UI.Enums.CoordinateInput">
+    <Position X="3.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAEAIAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Enums\CoordinateInput.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BattleShip.UI.Enums.BoardViewType">
+    <Position X="5.25" Y="3.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Enums\BoardViewType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BattleShip.BLL.Ships.ShipType">
+    <Position X="12.25" Y="1" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="BattleShip.BLL.Requests.ShipDirection">
+    <Position X="12.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="BattleShip.BLL.Responses.ShotStatus">
+    <Position X="10.5" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="BattleShip.BLL.Responses.ShotHistory">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Enum Name="BattleShip.BLL.Responses.ShipPlacement">
+    <Position X="12.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

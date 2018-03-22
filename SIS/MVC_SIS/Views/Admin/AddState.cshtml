@@ -1,0 +1,30 @@
+﻿@model SIS.Models.Data.State
+@{
+    ViewBag.Title = "Add State";
+}
+
+<div class="row">
+    <div class="col-xs-12">
+        <h3>Add State</h3>
+        @Html.ActionLink("Return to List", "States", "Admin")
+    </div>
+</div>
+<div class="row">
+    <div class="col-xs-12">
+        @using (Html.BeginForm("AddState", "Admin", FormMethod.Post))
+        {
+            <div style="color:red;font-weight:bold">@Html.ValidationSummary()</div>
+            <div class="form-group">
+                <label>State Code</label>
+                @Html.TextBoxFor(m => m.StateAbbreviation, new { @class = "form-control", placeholder = "State Code (2 char)" })
+            </div>
+            <div class="form-group">
+                <label>State</label>
+                @Html.TextBoxFor(m => m.StateName, new { @class = "form-control", placeholder = "State" })
+            </div>
+            <button type="submit" class="btn btn-sm btn-primary">Save</button>
+            @Html.ActionLink("Cancel", "States", "Admin", null, new { @class = "btn btn-sm btn-info" })
+        }
+    </div>
+</div>
+

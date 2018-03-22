@@ -1,0 +1,10 @@
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Data\bin\Debug\FlooringMastery.Data.dll.config
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Data\bin\Debug\FlooringMastery.Data.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Data\bin\Debug\FlooringMastery.Data.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Data\bin\Debug\FlooringMastery.Models.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Data\bin\Debug\FlooringMastery.Models.pdb
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Data\bin\Debug\FlooringMastery.Models.dll.config
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Data\obj\Debug\FlooringMastery.Data.csprojResolveAssemblyReference.cache
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Data\obj\Debug\FlooringMastery.Data.csproj.CoreCompileInputs.cache
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Data\obj\Debug\FlooringMastery.Data.dll
+C:\Users\Nathan\Documents\bitbucket\nathan-hills-individual-work\Assignments\FlooringMastery\FlooringMastery.Data\obj\Debug\FlooringMastery.Data.pdb
